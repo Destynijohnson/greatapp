@@ -1,0 +1,65 @@
+.container {
+  width: 800px;
+  height: 500px;
+  margin-top: 30px;
+  background: linear-gradient(
+    175deg,
+    rgb(252, 235, 115) 0%,
+    rgb(62, 220, 232) 100%
+  );
+  border-radius: 10px;
+  display: block;
+}
+
+#search-form {
+  padding: 50px 50px 30px;
+}
+
+#weather-information {
+  font-size: larger;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #35495e;
+}
+
+.my-list {
+  list-style: none;
+}
+
+div .col-4 {
+  text-align: right;
+  margin-left: 90px;
+}
+
+#current-description:first-letter {
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration: none;
+}
+
+#show-temperature {
+  font-size: 50px;
+  color: #430f58;
+}
+
+#weather-forecast-list {
+  text-align: center;
+  color: #283739;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+.weekdays-forecast {
+  opacity: 0.6;
+}
+
+.temperature-forecast-night {
+  opacity: 0.6;
+}
+
+small a {
+  text-decoration: none;
+  padding-left: 285px;
+}
